@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    padding: 20px 10px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+.header {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    color: #f39c12;
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.header p {
+    color: #aaa;
+}
+
+h2 {
+    color: #f39c12;
+    margin-bottom: 20px;
+    border-left: 4px solid #f39c12;
+    padding-left: 10px;
+}
+
+.topic-box {
+    background: #262626;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    border: 1px solid #333;
+}
+
+.topic-box h3 {
+    color: #e67e22;
+    margin-bottom: 12px;
+}
+
+.topic-box ul, .topic-box ol {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.topic-box li {
+    margin-bottom: 6px;
+}
+
+.alert {
+    background: #3d2314;
+    color: #f39c12;
+    padding: 12px;
+    border-radius: 6px;
+    border-left: 4px solid #e67e22;
+    margin: 15px 0;
+    font-size: 0.95rem;
+}
+
+/* CARDS DE CONTRATO */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.card {
+    background: #1e1e1e;
+    border: 1px solid #444;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card h4 {
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.88rem;
+    color: #ccc;
+    margin-bottom: 12px;
+    min-height: 50px;
+}
+
+.card .price {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2ecc71;
+}
+
+/* HIERARQUIA */
+.hierarchy-list {
+    list-style: none;
+    padding-left: 0 !important;
+}
+
+.hierarchy-list li {
+    background: #1e1e1e;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-left: 3px solid #f39c12;
+}
+
+.hierarchy-list li span {
+    background: #f39c12;
+    color: #121212;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+/* FORMULÁRIO */
+.form-section {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid #333;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ddd;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    background: #2c2c2c;
+    border: 1px solid #444;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #f39c12;
+    outline: none;
+}
+
+button {
+    background-color: #f39c12;
+    color: #121212;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #d68910;
+}
+
+.hidden {
+    display: none;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sucesso {
+    background: #1c3b2b;
+    color: #2ecc71;
+    border: 1px solid #2ecc71;
+}
+
+.erro {
+    background: #3b1c1c;
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+}
